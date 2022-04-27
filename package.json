@@ -1,0 +1,35 @@
+{
+  "name": "arclif",
+  "version": "1.0.0",
+  "description": "Passwordless Authentication of User in Node(express) and React using JWT and Twilio SMS API without and any database for validating OTP",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.1",
+    "twilio": "^3.49.4",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhagitha/Arclif-servies-new.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bhagitha/Arclif-servies-new/issues"
+  },
+  "homepage": "https://github.com/bhagitha/Arclif-servies-new#readme"
+}
